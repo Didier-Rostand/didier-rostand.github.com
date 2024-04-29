@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>vente de cacao en ligne</title>
+        <link rel="stylesheet" media="screen"
+        href="formulaire.css" type="text/css">
+    </head>
+    <body>
+
+<form action="traitement_formulaire.php"
+methode="post">
+<ul>
+    <li>
+<label for="nom">Nom :</label>
+<input type="text" id="nom"
+name="nom" required><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<label for="adresse">Adresse :</label>
+<input type="text" id="adresse"
+name="adresse" required><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<label for="email">Email :</label>
+<input type="email" id="email"
+name="email" required><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<label for="telephone">Telephone :</label>
+<input type="tel" id="telephone"
+name="telephone" required><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<label for="produit">Produit :</label>
+<select  id="produit"
+name="produit" required><br>
+<option
+value="produit1">produit 1</option>
+<option
+value="produit1">produit 2</option>
+<option
+value="produit1">produit 3</option>
+</select><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<label for="quantite">Quantite :</label>
+<input type="number" id="quantite"
+name="qualite" required><br>
+</li>
+</ul>
+
+<ul>
+    <li>
+<input type="submit"
+value="acheter">
+</li>
+</ul>
+</form>
+
+    </body>
+</html>
